@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="append_column" type="xboolean" value="false"/>
+<entry key="replaced_column" type="xstring" value="_suffix"/>
+<entry key="expression" type="xstring" value="COL_SUM($$CURRENT_COLUMN$$)"/>
+<entry key="convert_to_int" type="xboolean" value="true"/>
+<config key="column_selection">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="43"/>
+<entry key="0" type="xstring" value="Female_gender"/>
+<entry key="1" type="xstring" value="Male_gender"/>
+<entry key="2" type="xstring" value="Yes_Partner"/>
+<entry key="3" type="xstring" value="No_Partner"/>
+<entry key="4" type="xstring" value="No_Dependents"/>
+<entry key="5" type="xstring" value="Yes_Dependents"/>
+<entry key="6" type="xstring" value="No_PhoneService"/>
+<entry key="7" type="xstring" value="Yes_PhoneService"/>
+<entry key="8" type="xstring" value="No phone service_MultipleLines"/>
+<entry key="9" type="xstring" value="No_MultipleLines"/>
+<entry key="10" type="xstring" value="Yes_MultipleLines"/>
+<entry key="11" type="xstring" value="DSL_InternetService"/>
+<entry key="12" type="xstring" value="Fiber optic_InternetService"/>
+<entry key="13" type="xstring" value="No_InternetService"/>
+<entry key="14" type="xstring" value="No_OnlineSecurity"/>
+<entry key="15" type="xstring" value="Yes_OnlineSecurity"/>
+<entry key="16" type="xstring" value="No internet service_OnlineSecurity"/>
+<entry key="17" type="xstring" value="Yes_OnlineBackup"/>
+<entry key="18" type="xstring" value="No_OnlineBackup"/>
+<entry key="19" type="xstring" value="No internet service_OnlineBackup"/>
+<entry key="20" type="xstring" value="No_DeviceProtection"/>
+<entry key="21" type="xstring" value="Yes_DeviceProtection"/>
+<entry key="22" type="xstring" value="No internet service_DeviceProtection"/>
+<entry key="23" type="xstring" value="No_TechSupport"/>
+<entry key="24" type="xstring" value="Yes_TechSupport"/>
+<entry key="25" type="xstring" value="No internet service_TechSupport"/>
+<entry key="26" type="xstring" value="No_StreamingTV"/>
+<entry key="27" type="xstring" value="Yes_StreamingTV"/>
+<entry key="28" type="xstring" value="No internet service_StreamingTV"/>
+<entry key="29" type="xstring" value="No_StreamingMovies"/>
+<entry key="30" type="xstring" value="Yes_StreamingMovies"/>
+<entry key="31" type="xstring" value="No internet service_StreamingMovies"/>
+<entry key="32" type="xstring" value="Month-to-month_Contract"/>
+<entry key="33" type="xstring" value="One year_Contract"/>
+<entry key="34" type="xstring" value="Two year_Contract"/>
+<entry key="35" type="xstring" value="Yes_PaperlessBilling"/>
+<entry key="36" type="xstring" value="No_PaperlessBilling"/>
+<entry key="37" type="xstring" value="Electronic check_PaymentMethod"/>
+<entry key="38" type="xstring" value="Mailed check_PaymentMethod"/>
+<entry key="39" type="xstring" value="Bank transfer (automatic)_PaymentMethod"/>
+<entry key="40" type="xstring" value="Credit card (automatic)_PaymentMethod"/>
+<entry key="41" type="xstring" value="No_Churn"/>
+<entry key="42" type="xstring" value="Yes_Churn"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xstring" value="SeniorCitizen"/>
+<entry key="1" type="xstring" value="tenure"/>
+<entry key="2" type="xstring" value="MonthlyCharges"/>
+<entry key="3" type="xstring" value="TotalCharges"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="factory" type="xstring" value="org.knime.ext.jep.multicolumn.MultiColumnJEPNodeFactory"/>
+<entry key="node-name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jep"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.6.0.v201807061247"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Math Expression (JEP)"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jep.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.6.0.v201807061247"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Math Formula (Multi Column)"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>
